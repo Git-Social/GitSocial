@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "gitsocial",
+  "scripts": {
+    "dev": "vbuild --dev",
+    "build": "vbuild"
+  },
+  "dependencies": {
+    "vue": "^2.0.0"
+  },
+  "version": "0.0.1",
+  "description": "The main site for GitSocial",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Git-Social/GitSocial.git"
+  },
+  "keywords": [
+    "GitSocial"
+  ],
+  "author": "Zephraph <zephraph@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Git-Social/GitSocial/issues"
+  },
+  "homepage": "https://github.com/Git-Social/GitSocial#readme"
+}
