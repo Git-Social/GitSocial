@@ -1,4 +1,5 @@
 module.exports = {
   title: 'GitSocial',
-  resolve: true
+  resolve: true,
+  dist: './docs'
 }
