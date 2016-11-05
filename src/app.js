@@ -1,6 +1,8 @@
 import Vue from 'vue'
-import App from 'components/App.vue'
+import router from './router'
 
-export default new Vue({
-  ...App
+new Vue({
+  el: '#app',
+  router,
+  render: h => h('router-view')
 })

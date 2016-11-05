@@ -6,7 +6,8 @@
     "build": "vbuild"
   },
   "dependencies": {
-    "vue": "^2.0.0"
+    "vue": "^2.0.5",
+    "vue-router": "^2.0.1"
   },
   "version": "0.0.1",
   "description": "The main site for GitSocial",
@@ -23,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/Git-Social/GitSocial/issues"
   },
-  "homepage": "https://github.com/Git-Social/GitSocial#readme"
+  "homepage": "https://github.com/Git-Social/GitSocial#readme",
+  "devDependencies": {
+    "pug": "^2.0.0-beta6",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.3.1",
+    "vbuild": "^3.1.5"
+  }
 }
