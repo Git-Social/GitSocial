@@ -1,3 +1,8 @@
-import app from './app'
+import Vue from 'vue'
+import router from './router'
 
-app.$mount('#app')
+new Vue({
+  el: '#app',
+  router,
+  render: h => h('router-view')
+})
