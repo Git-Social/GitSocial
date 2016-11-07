@@ -3,7 +3,7 @@
   "name": "gitsocial",
   "scripts": {
     "dev": "vbuild --dev",
-    "build": "vbuild"
+    "build": "vbuild && touch ./docs/.nojekyll"
   },
   "dependencies": {
     "vue": "^2.0.5",
