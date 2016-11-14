@@ -27,14 +27,19 @@ export default {
 </style>
 
 <style lang="stylus" scoped>
+  @import '~styles/colors'
+  @import '~styles/types'
+
   .Home
     text-align center
-  .banner
-    background-color white
-    margin 40px 0 0 0
-    padding 20px
+  .background
+    display block
+    background-image url("../../assets/images/branch-bg.svg")
+    width 100%
+    height 100%
   .byline
-    font 20px Helvetica, Arial, sans-serif
+    type-body 25px
+    color dark
   header
     margin-bottom 140px
 </style>
