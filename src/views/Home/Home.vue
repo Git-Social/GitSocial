@@ -34,7 +34,7 @@ export default {
     text-align center
   .background
     display block
-    background-image url("../../assets/images/branch-bg.svg")
+    background-image url("/assets/images/branch-bg.svg")
     width 100%
     height 100%
   .byline
