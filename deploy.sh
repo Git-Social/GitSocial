@@ -11,7 +11,7 @@ TARGET_BRANCH="gh-pages"
 OUT_DIR="dist"
 
 function doCompile {
-  npm run build
+  yarn run build
 }
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
